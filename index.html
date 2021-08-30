@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Feedback</h2>
+    <form action="/search" method="GET">
+        <ul>
+        <li>
+            <label for="uname">Your name</label>
+            <input type="text" name="userName" id="uname">
+        </li>
+        <li>
+            <label for="uemail">Email</label>
+            <input type="text" name="UserEmail" id="uemail">
+        </li>
+        <li>
+            <label for="umessage"></label>
+            <textarea name="userMessage" id="umessage" cols="30" rows="10"></textarea>
+        </li>
+        <li>
+            <label for="ubtn"></label>
+            <input id="sendBtn" name="ubtn" type="submit" value="Send">
+        </li>
+    </ul>
+    </form>
+</body>
+</html>
